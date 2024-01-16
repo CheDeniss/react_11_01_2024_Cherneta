@@ -1,0 +1,26 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.menu-ul {
+    display: flex;
+}
+
+.menu-li {
+    margin: 10px;
+    color: navy;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    align-items: center
+}
+
+.menu-li:hover{
+    background: #6894b2;
+    color: white;
+    border-radius: 15px;
+    transition: background 0.3s, color 0.1s;
+    cursor: pointer;
+}
